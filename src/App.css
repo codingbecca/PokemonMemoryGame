@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 490px;
+}
+
+.pokemon {
+  background-color: rgb(232, 232, 232);
+  margin: 1rem;
+  border-radius: 8px;
+  padding: 0.9rem;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+}
+
+.score, .highScore {
+  margin: 1rem;
+  padding: 0.2rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 90px;
+}
